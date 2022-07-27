@@ -186,3 +186,119 @@
 
 
 /* end media */
+
+/* start header */
+body {
+    margin: 0;
+    font-family: "Trebuchet MS";
+}
+
+header {
+    height: 75px;
+    width: 100%;
+    background-color: #52bab5;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-left {
+    float: left;
+    padding-left:30px;
+}
+
+.navbar {
+    float:right;
+    overflow: hidden;
+    padding-right:30px;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    line-height:75px;
+    padding-left:20px;
+    padding-right:20px;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    line-height: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #289e98;
+    transition: all 0.5s;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    transition: all 0.5s;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    transition: all 0.5s;
+    animation: growDown 300ms ease-in-out;
+    transform-origin: top center;
+}
+
+@keyframes growDown {
+    0% {
+        transform: scaleY(0)
+    }
+
+    80% {
+        transform: scaleY(1.1)
+    }
+
+    100% {
+        transform: scaleY(1)
+    }
+}
+
+.navbar .active {
+    text-decoration:underline;
+    background-color: #28afa8;
+}
+
+/* end header */
