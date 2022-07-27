@@ -301,4 +301,22 @@ header {
     background-color: #28afa8;
 }
 
+.menu-icon {
+    float:right;
+    line-height:75px;
+    font-size:25pt;
+    color:black;
+    padding-right:30px;
+    display:none;
+}
+
+@media screen and (max-width: 740px) {
+    .navbar {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
 /* end header */
