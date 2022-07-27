@@ -1,3 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* footer-first */
+
+.footer {
+    background-color: #0096FF;
+    height: 150px;
+    width: 100%;
+}
+
+.footer .footer-copyright {
+    position: fixed;
+}
+
+.container-footer {
+    max-width: 1270px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.footer-list {
+    float: left;
+    padding: 8px;
+    overflow: hidden;
+    height: 100%;
+    width: 160px;
+}
+
+.footer-list .icons {
+    max-width: 25px;
+    float: left;
+    height: 132px;
+}
+
+.footer-list .icons li i {
+    margin-top: 5px;
+    margin-left: -15px;
+}
+
+.footer-list .icons li #info-icon {
+    margin-left: -8px;
+}
+
+.footer-list li {
+    list-style-type: none;
+    margin: 16px 18px;
+    color: #ffffff;
+}
+
+.footer-list .links {
+    float: left;
+    width: 115px;
+    height: 100%;
+}
+
+.footer-list .links a {
+    text-decoration: none;
+    color: #ffffffff;
+    margin-left: -10px;
+    font-size: 18px;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-list .links a:hover {
+    color: #FEFBF6;
+    padding-left: 10px;
+}
+
+.footer-logo {
+    float: right;
+    padding: 8px;
+}
+
+.footer-logo h1 {
+    margin: 45px 18px;
+    color: black;
+}
+
+.footer-logo span a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.footer-logo span a:hover {
+    color: red;
+    padding-left: 10px;
+}
+
+.footer-copyright {
+    background-color: black;
+    height: 25px;
+    width: 100%;
+}
+
+.footer-copyright p {
+    color: #fff;
+    text-align: center;
+}
+
+
+/* footer end */
+
+
+/* first media */
+
+
+/* layar device ukuran kecil */
+
+@media screen and (min-width: 375px) {
+    /* footer first media */
+    .container-footer {
+        width: 90%;
+    }
+    .footer-list .icons li i {
+        font-size: 11px;
+    }
+    .footer-list .links li a {
+        font-size: 14px;
+        margin-top: 19px;
+    }
+    .footer-logo h1 {
+        font-size: 20px;
+    }
+    .footer-copyright p {
+        font-size: 12px;
+    }
+    /* footer end media */
+}
+
+
+/* layar device ukuran sedang */
+
+@media screen and (min-width: 550px) {
+    /* footer first media */
+    .container-footer {
+        width: 85%;
+    }
+    .footer-list .icons li i {
+        font-size: 14px;
+    }
+    .footer-list .links li a {
+        font-size: 15px;
+        margin-top: 19px;
+    }
+    .footer-logo h1 {
+        font-size: 24px;
+    }
+    .footer-copyright p {
+        font-size: 14px;
+    }
+    /* footer end media */
+}
+
+
+/* layar device ukuran besar */
+
+@media screen and (min-width: 800px) {
+    /* footer first media */
+    .container-footer {
+        width: 80%;
+    }
+    .footer-list .icons li i {
+        font-size: 16px;
+    }
+    .footer-list .links li a {
+        font-size: 16px;
+        margin-top: 19px;
+    }
+    .footer-logo h1 {
+        font-size: 28px;
+    }
+    .footer-copyright p {
+        font-size: 16px;
+    }
+    /* footer end media */
+}
+
+
+/* end media */
+
+/* start header */
 body {
     margin: 0;
     font-family: "Trebuchet MS";
@@ -110,3 +300,5 @@ header {
     text-decoration:underline;
     background-color: #28afa8;
 }
+
+/* end header */
