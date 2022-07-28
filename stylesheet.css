@@ -364,6 +364,35 @@ header {
     }
 }
 /* end header */
+/* Body About Us */
+.body-first {
+    background-color: #289e98;
+}
+
+.body-first p{
+    color: black;
+    text-align: center;
+    
+}
+
+.content-bodyfirst{
+    padding-top: 20px;
+}
+.content-bodyfirst img{
+    float: left;
+
+}
+
+.body-first h1 {
+    font-size: 24px;
+    text-align: center;
+    border-bottom-style: solid;
+}
+
+.undraw {
+    max-width: 100%;
+    max-height: 100%;
+}
 
 /* Body Team Us */
 .bg-team{
